@@ -44,6 +44,12 @@ h1 {
   font-size: 2.2rem;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 2.8rem;
@@ -55,6 +61,7 @@ h1 {
     font-size: 3rem;
   }
 }
+
 
 /* Footer */
 footer {
